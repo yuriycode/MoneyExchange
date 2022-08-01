@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/WORK2/AndroidStudioProjects/MoneyExchange2/app/src/main/res/layout/activity_main.xml" value="0.3645833333333333" />
+        <entry key="..\:/Users/WORK2/AndroidStudioProjects/MoneyExchange2/app/src/main/res/layout/fragment_root.xml" value="0.1" />
         <entry key="..\:/Users/WORK2/AndroidStudioProjects/MoneyExchange2/app/src/main/res/layout/fragment_second.xml" value="0.268733850129199" />
         <entry key="..\:/Users/WORK2/AndroidStudioProjects/MoneyExchange2/app/src/main/res/layout/fragment_splash.xml" value="0.268733850129199" />
         <entry key="..\:/Users/WORK2/AndroidStudioProjects/MoneyExchange2/app/src/main/res/layout/fragment_start.xml" value="0.268733850129199" />
