@@ -1,4 +1,4 @@
-package com.yuriycode.moneyexchange.screens.second
+package com.yuriycode.moneyexchange.presentation.screens.second
 
 import android.annotation.SuppressLint
 import android.view.LayoutInflater
@@ -6,9 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.yuriycode.moneyexchange.R
-import com.yuriycode.moneyexchange.model.beznal.Beznal
-import com.yuriycode.moneyexchange.model.beznal.BeznalItem
-import com.yuriycode.moneyexchange.model.nal.NalichkaItem
+import com.yuriycode.moneyexchange.domain.model.beznal.BeznalItem
 import kotlinx.android.synthetic.main.item_money_layout.view.*
 
 class SecondAdapter:RecyclerView.Adapter<SecondAdapter.SecondViewHolder>() {

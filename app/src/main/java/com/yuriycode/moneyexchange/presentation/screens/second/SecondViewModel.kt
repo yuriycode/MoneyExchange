@@ -1,10 +1,10 @@
-package com.yuriycode.moneyexchange.screens.second
+package com.yuriycode.moneyexchange.presentation.screens.second
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.yuriycode.moneyexchange.data.repository.Repository
-import com.yuriycode.moneyexchange.model.beznal.Beznal
+import com.yuriycode.moneyexchange.domain.model.beznal.Beznal
 import kotlinx.coroutines.launch
 import retrofit2.Response
 

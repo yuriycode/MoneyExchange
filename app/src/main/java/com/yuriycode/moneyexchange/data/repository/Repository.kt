@@ -1,10 +1,8 @@
 package com.yuriycode.moneyexchange.data.repository
 
 import com.yuriycode.moneyexchange.data.api.RetrofitInstance
-import com.yuriycode.moneyexchange.model.beznal.Beznal
-import com.yuriycode.moneyexchange.model.beznal.BeznalItem
-import com.yuriycode.moneyexchange.model.nal.Nalichka
-import com.yuriycode.moneyexchange.model.nal.NalichkaItem
+import com.yuriycode.moneyexchange.domain.model.beznal.Beznal
+import com.yuriycode.moneyexchange.domain.model.nal.Nalichka
 import retrofit2.Response
 
 class Repository {

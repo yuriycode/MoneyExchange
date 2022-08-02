@@ -6,7 +6,7 @@
     app:startDestination="@id/splashFragment2">
     <fragment
         android:id="@+id/splashFragment2"
-        android:name="com.yuriycode.moneyexchange.screens.splash.SplashFragment"
+        android:name="com.yuriycode.moneyexchange.presentation.screens.splash.SplashFragment"
         android:label="fragment_splash"
         tools:layout="@layout/fragment_splash" >
         <action
@@ -15,17 +15,17 @@
     </fragment>
     <fragment
         android:id="@+id/rootFragment2"
-        android:name="com.yuriycode.moneyexchange.screens.root.RootFragment"
+        android:name="com.yuriycode.moneyexchange.presentation.screens.root.RootFragment"
         android:label="fragment_root"
         tools:layout="@layout/fragment_root" />
     <fragment
         android:id="@+id/startFragment"
-        android:name="com.yuriycode.moneyexchange.screens.start.StartFragment"
+        android:name="com.yuriycode.moneyexchange.presentation.screens.start.StartFragment"
         android:label="fragment_start"
         tools:layout="@layout/fragment_start" />
     <fragment
         android:id="@+id/secondFragment"
-        android:name="com.yuriycode.moneyexchange.screens.second.SecondFragment"
+        android:name="com.yuriycode.moneyexchange.presentation.screens.second.SecondFragment"
         android:label="fragment_second"
         tools:layout="@layout/fragment_second" />
 </navigation>

@@ -1,4 +1,4 @@
-package com.yuriycode.moneyexchange.screens.second
+package com.yuriycode.moneyexchange.presentation.screens.start
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -8,29 +8,29 @@ import android.view.ViewGroup
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.RecyclerView
 import com.yuriycode.moneyexchange.R
-import com.yuriycode.moneyexchange.screens.start.StartAdapter
-import kotlinx.android.synthetic.main.fragment_second.view.*
 import kotlinx.android.synthetic.main.fragment_start.view.*
 
-class SecondFragment : Fragment() {
+class StartFragment : Fragment() {
 
     lateinit var recyclerView: RecyclerView
-    lateinit var adapter: SecondAdapter
-
+    lateinit var adapter: StartAdapter
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val viewModel = ViewModelProvider(this).get(SecondViewModel::class.java)
-        val view = inflater.inflate(R.layout.fragment_second, container, false)
-        recyclerView = view.rv_second
-        adapter = SecondAdapter()
+        // Inflate the layout for this fragment
+
+        val viewModel = ViewModelProvider(this).get(StartViewModel::class.java)
+        val v = inflater.inflate(R.layout.fragment_start, container, false)
+        recyclerView = v.rv_start
+        adapter = StartAdapter()
         recyclerView.adapter = adapter
-        viewModel.getBeznalMoney()
-        viewModel.myMoneyList.observe(viewLifecycleOwner, { list ->
+
+        viewModel.getNalMoney()
+        viewModel.myMoneyList.observe(viewLifecycleOwner, {list ->
             list.body()?.let { adapter.setList(it) }
         })
-        return view
+        return v
     }
 }
