@@ -1,4 +1,4 @@
-package com.yuriycode.moneyexchange.screens.root
+package com.yuriycode.moneyexchange.presentation.screens.root
 
 import android.content.Context
 import android.os.Bundle
@@ -10,7 +10,6 @@ import androidx.fragment.app.FragmentActivity
 import com.google.android.material.tabs.TabLayoutMediator
 import com.yuriycode.moneyexchange.R
 import com.yuriycode.moneyexchange.ViewPagerAdapter
-import kotlinx.android.synthetic.main.fragment_root.*
 import kotlinx.android.synthetic.main.fragment_root.view.*
 
 class RootFragment : Fragment() {

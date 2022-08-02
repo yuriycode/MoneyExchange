@@ -1,4 +1,4 @@
-package com.yuriycode.moneyexchange.screens.splash
+package com.yuriycode.moneyexchange.presentation.screens.splash
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

@@ -3,8 +3,8 @@ package com.yuriycode.moneyexchange
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
 import androidx.viewpager2.adapter.FragmentStateAdapter
-import com.yuriycode.moneyexchange.screens.second.SecondFragment
-import com.yuriycode.moneyexchange.screens.start.StartFragment
+import com.yuriycode.moneyexchange.presentation.screens.second.SecondFragment
+import com.yuriycode.moneyexchange.presentation.screens.start.StartFragment
 
 class ViewPagerAdapter(fragmentActivity: FragmentActivity): FragmentStateAdapter(fragmentActivity) {
     override fun getItemCount(): Int {

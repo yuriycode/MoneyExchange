@@ -1,4 +1,4 @@
-package com.yuriycode.moneyexchange.screens.start
+package com.yuriycode.moneyexchange.presentation.screens.start
 
 import android.annotation.SuppressLint
 import android.view.LayoutInflater
@@ -6,8 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.yuriycode.moneyexchange.R
-import com.yuriycode.moneyexchange.model.nal.NalichkaItem
-import kotlinx.android.synthetic.main.fragment_start.view.*
+import com.yuriycode.moneyexchange.domain.model.nal.NalichkaItem
 import kotlinx.android.synthetic.main.item_money_layout.view.*
 
 class StartAdapter: RecyclerView.Adapter<StartAdapter.StartViewHolder>() {
